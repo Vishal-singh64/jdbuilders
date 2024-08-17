@@ -48,36 +48,6 @@
 </div>
 
  <!-- /////////////////////////////////////////////////////////////////////// -->
- <!-- /////////////////////////////////////////////////////////////////////// -->
-<!-- 
-<div class="container py-3">
-    <div class="row align-items-center p-3">
-        <div class="col-md-6">
-            <div class="col text-center text-md-start mb-4 mb-md-0">
-                <h2>We work side by side with you to create exceptional spaces.</h2>
-            </div>
-            <div class="col">
-                <div class="row px-4">
-                    <div class="col text-md-start">
-                        <span class="count" id="projects-count">97</span>
-                        <p>Successfully Completed Projects</p>
-                    </div>
-                    <div class="col text-md-start">
-                        <span class="count" id="employees-count">450</span>
-                        <p>Highly Skilled Employees</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 mt-5 text-center text-md-start text-md-bottom">
-            <p>With over 50 years of combined experience, our mission is to design with your values and vision in mind. We're out to create purposeful spaces that balance art and creativity with science and strategy.</p>
-            <a class="btn btn-yellow" href="about.php" role="button">More About Us</a>
-        </div>
-    </div>
-</div>
- -->
- <!-- /////////////////////////////////////////////////////////////////////// -->
- <!-- /////////////////////////////////////////////////////////////////////// -->
 
 <!-- waork Data card ends here -->
 <!-- low price work card -->
@@ -325,13 +295,6 @@
         </div>
     </div>
     </div>
-    <!-- </div> -->
-    <!-- </div> -->
-        <!-- <div class="bg-image-banners-overlay"></div> -->
-    <!-- <div class="jumbotron text-end">
-        <div class="jumbotron-content" data-aos="fade-up"> -->
-            
-        <!-- </div> -->
 
 <!-- contact us card ends here -->
 <!-- ---------------------------------------------------------------------------------------------------- -->

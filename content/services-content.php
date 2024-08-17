@@ -10,33 +10,7 @@
         </div>
 </div>
 </div>
-
-<!-- /////////////////////////////////// Work Imaes //////////////////////////////////////// -->
-<!-- <div class="container-fluid service-gallery p-4">
-    <div class="container mt-4">
-            <div class="row justify-content-evenly inline-content">
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
-                </div>
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
-                </div>
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
-                </div>
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 4" height="100" width="100">
-                </div>
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
-                </div>
-                <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 6" height="100" width="100">
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
 <div class="container-fluid service-gallery p-4">
     <div class="swiper-container gallery-swiper">
         <div class="swiper-wrapper">
@@ -81,13 +55,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Swiper Pagination -->
-        <!-- <div class="swiper-pagination"></div> -->
-        
-        <!-- Swiper navigation should be placed outside the swiper-wrapper -->
-        <!-- <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
     </div>
 </div>
 
