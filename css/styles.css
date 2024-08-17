@@ -1,0 +1,412 @@
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #FFD700;
+    --secondary-color:  rgb(0, 0, 0);
+    --light-color: rgb(230, 227, 227);
+    --dark-color: rgb(26, 25, 25);
+}
+
+.bg-image {
+    background-image: url('../asset/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 11, 5, 0.6); /* Yellow overlay with 0.3 opacity */
+    z-index: 1;
+}
+
+.jumbotron-content {
+    position: relative;
+    z-index: 2;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2rem;
+}
+
+.jumbotron-content .display-1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.jumbotron-content h5 {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.jumbotron-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+ 
+}
+
+@media (max-width: 768px) {
+    .jumbotron-content .display-1 {
+        font-size: 3rem;
+    }
+    
+    .jumbotron-content h5 {
+        font-size: 1.25rem;
+    }
+    
+    .jumbotron-content p {
+        font-size: 1rem;
+    }
+}
+
+/* //////////////////////////////////////////////////////// */
+.btn-yellow {
+    background-color: var(--primary-color);
+    color: #000;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-yellow:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+  }
+
+/* //////////////////////////////////////////////////////// */
+
+.count{
+    font-size: 48px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////// */
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-icon{
+    background-color: var(--primary-color);
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .service-icon img{
+    
+} */
+
+/* /////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////// we build at convient prices ///////////////////////// */
+
+.bg-image-banners {
+    position: relative;
+    height: 500px;
+    background-image: url('../asset/construction1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-image-banners:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 11, 5, 0.6); /* Yellow overlay with 0.3 opacity */    
+    z-index: 0;
+}
+
+.bg-image-banners .jumbotron {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-image-banners .jumbotron-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* ////////////////////////// we build at convient prices  ends///////////////////////// */
+/* --------------------------------------------------------------------------------------------- */
+/* //////////////////////////////// Testomoni start here //////////////////////////////// */
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.testimonial img {
+    border: 5px solid var(--primary-color);
+}
+
+.testimonial h5 {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.testimonial .text-muted {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.stars i {
+    color: #FFD700;
+}
+
+.stars {
+    margin-top: 1rem;
+}
+
+/* Responsive styles */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        flex-direction: column;
+    }
+}
+
+/* Button styles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Round buttons */
+}
+
+
+
+
+/* //////////////////////////////// Testomoni ends here //////////////////////////////// */
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* //////////////////////////////// Partners with //////////////////////////////// */
+.partners-section{
+    background-color: whitesmoke;
+}
+
+img {
+    max-height: 100px; 
+}
+
+h2 {
+    color: var(--dark-color); 
+}
+
+/* .container {
+    text-align: center; 
+} */
+    /* //////////////////////////////// Partners with //////////////////////////////// */
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.glimpse-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0;
+}
+.glimpse-text h1 {
+    /* font-size: ; */
+    color: var(--primary-color);
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.glimpse-text p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+.glimpse-stats {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.glimpse-stats p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+.glimpse-images{
+ 
+    position: relative;
+    height: 400px;
+}
+
+.box1{
+    border-radius: 15px;
+    margin: 5px;
+    background-image: url('../asset/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 170px;
+    width: 170px;
+    /* background-color: green; */
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+.box2{
+    border-radius: 15px;
+    margin: 5px;
+    background-image: url('../asset/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    padding: 5px;
+    bottom: 50%;
+    left: 50%;
+}
+.box3{
+    border-radius: 15px;
+    margin: 5px;
+    background-image: url('../asset/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.box4{
+    border-radius: 15px;
+    margin: 5px;
+    background-image: url('../asset/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+  .construction-content {
+    padding: 50px 0;
+  }
+  
+  
+/* ////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// */
+
+/* /////////// contact us card css //////////////////////////////// */
+.image-gradient {
+    background: linear-gradient(to right, rgb(51, 51, 51), rgba(252, 252, 252, 0.1)), url("../asset/map.PNG");
+    background-position: right center;
+    background-size:cover;
+    width: 100vw;
+    max-height: 550px;
+    /* height: auto; adjust the height as needed */
+  }
+
+.image-gradient .contact-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* color: green; */
+}
+
+.image-gradient .contact-details h1{
+   
+    color: var(--dark-color);
+    font-weight: bolder;
+}
+
+.image-gradient .contact-details p{
+    color: var(--light-color);
+}
+.image-gradient .contact-details h6{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.contact-social-icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    margin-bottom: 30px;    
+    padding: 2px;
+     width: 50px;
+    height: 50px; 
+    border-radius: 25px; 
+    font-size: 38px; 
+    background-color: var(--primary-color); 
+}
+.contact-social-icons i:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+
+}
+
+.contact-social-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .contact-social-icons {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+
+
+  
+
+/* /////////// contact us card css //////////////////////////////// */

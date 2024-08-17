@@ -1,0 +1,85 @@
+.contact-bg-image {
+    background-image: url('../asset/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative;
+}
+
+.contact-button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0; /* Adjusted margin */
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in;
+}
+
+.contact-button:hover {
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-methods-container {
+    background-color: whitesmoke; /* Light background for contrast */
+}
+
+.contact-methods-container .profile-img {
+    border: 0;
+    position: relative;
+    top: -60px; /* Adjust as needed */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: var(--primary-color);
+}
+
+.contact-methods-container .profile-img i {
+    color: whitesmoke; /* Icon color */
+}
+
+.contact-container {
+    background: linear-gradient(to right, rgb(94, 93, 93), rgba(252, 252, 252, 0.1)), url("../asset/map.PNG");
+    background-position: right center;
+    background-size: cover;
+    height: auto; /* Adjust height as needed */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-container form{
+    margin: 20px;
+    /* display: flex; */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+
+.contact-container .address-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-container .address-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+    align-self: center;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(2px); /* Blur effect for the background */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%;
+    padding: 20px; /* Optional: Add some padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}

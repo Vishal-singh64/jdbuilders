@@ -1,0 +1,92 @@
+
+.service-bg-image {
+    background-image: url('../asset/cons.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* //////////////////////////////////////////////////////// */
+
+.service-gallery {
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.section {
+    padding: 10px 0;
+}
+.section .image-1 {
+    background-image: url('../asset/element/home.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section .image-2 {
+    background-image: url('../asset/element/commercial.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section .image-3 {
+    background-image: url('../asset/element/hospital.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section .image-4 {
+    background-image: url('../asset/element/flyover.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section .image-5 {
+    background-image: url('../asset/element/helipad.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section h3 {
+    font-weight: bold;
+}
+.section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .section .image-1, .section .image-2, .section .image-3, .section .image-4, .section .image-5 {
+        height: 180px;
+    }
+}
