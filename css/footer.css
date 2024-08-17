@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #FFD700;
+    --secondary-color:  rgba(12, 11, 5, 0.6)
+}
+
+.footer_section {
+    position: relative;
+    padding: 40px 0;
+    background:linear-gradient(45deg, #333333, #808080);
+
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_section h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer_section p, .footer_section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #ccc;
+}
+
+.footer_section .company_defi {
+    color: #bbb;
+    text-align:justify
+}
+
+.footer_section .address {
+    margin-bottom: 10px;
+}
+
+.footer_section .social_links {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.footer_section .social_link {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer_section .social_link:hover {
+    color: var(--primary-color);
+}
+
+.footer_section .quick_links li {
+    margin-bottom: 10px;
+}
+
+.footer_section .quick_links li i {
+    margin-right: 10px;
+}
+
+.footer_section .quick_links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer_section .quick_links a:hover {
+    color: var(--primary-color);
+}
+
+.footer_section hr {
+    border-top: 1px solid #666;
+}
+
+.footer_section p.text-center {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+@media (max-width: 767px) {
+    .footer_section .row > div {
+        margin-bottom: 20px;
+    }
+    .footer_section .social_links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

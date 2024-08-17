@@ -1,0 +1,387 @@
+
+.about-bg-image {
+    background-image: url('../asset/building.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 11, 5, 0.6); /* Yellow overlay with 0.3 opacity */
+    z-index: 1;
+}
+
+/* /////////////////////////////// SOTRY CARDS ///////////////////////////////////// */
+
+/* .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.bg-dark:hover {
+    background-color: #555 !important;
+}
+
+.bg-primary {
+    background-color: #1a73e8 !important;
+} */
+
+.work-gallary-text{
+        margin-top: 28px;
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-align:justify;
+}
+
+.work-gallary-images{ 
+    position: relative;
+    height: 250px;
+}
+
+.gallary-image1{
+    border-radius: 2px;
+    background-image: url('../asset/building.jpg');
+    background-size: cover;
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    /* padding: 5px; */
+    top: 20px;
+    left: -20px;
+    bottom: 20px;
+    box-shadow: 0 0 10px rgba(12, 11, 5, 0.6);
+}
+.gallary-image2{
+    border-radius: 2px;
+    background-image: url('../asset/building2.jpg');
+    background-size: cover;
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    box-shadow: 0 0 10px rgba(12, 11, 5, 0.6);
+}
+
+.gallary-image3{
+    border-radius: 2px;
+    background-image: url('../asset/building3.jpg');
+    background-size: cover;
+    height: 220px;
+    width: 280px;
+    position: absolute;
+    /* padding: 5px; */
+    right: 40px;
+    /* left: 80px; */
+    box-shadow: 0 0 10px rgba(12, 11, 5, 0.6);
+}
+
+.gallary-image1:hover,
+.gallary-image2:hover,
+.gallary-image3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    z-index: 999;
+}
+
+
+.about-us-image-1{
+    border-radius: 10px;
+    background-image: url('../asset/building3.jpg');
+    background-size: cover;
+    height: 220px;
+    width: 350px;
+}
+
+
+.work-gallary-container {
+    background-color: whitesmoke;
+    /* padding: 50px 0; */
+}
+
+
+ .work-gallary-container h2 {
+    color: var(--primary-color);
+    /* border: 1px solid black; */
+}
+
+.about-us-row .about-us-text .title{
+    color: var(--dark-color);
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.about-us-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us-image-1 {
+    width: 100%;
+    height: 250px;
+    background-image: url('../asset/building3.jpg');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .about-us-image-1 {
+        margin-bottom: 20px;
+    }
+}
+
+/* //////////////////////////////// Our partners ///////////////////////////////////// */
+.our-partners-container {
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+}  
+
+  .profile-card { 
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-card .card-header {
+    background: linear-gradient(to right, #ffe608f3, #fdff75);
+    height: 100px;
+    /* padding: 20px; */
+  }
+  
+  .profile-card .profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #fa7508;
+    position: relative;
+    top: -38px;
+  }
+
+  .profile-card .card-body{
+    border-radius: 10px;
+    /* background-color: white; */
+  }
+
+  .profile-card .card-body .position{
+    /* border: 1px solid black; */
+    width: 60%;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    background-color: #fa7508;
+  }  
+  .profile-card .card-text {
+    position: relative;
+    top: -30px;
+    font-size: 0.9rem;
+    text-align:justify;
+    /* margin: 20px; */
+    margin: 20px 20px 0px 20px;
+  }
+  
+  .profile-card .card-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .social-icons a {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a:hover {
+    color: #ff7f00;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-card {
+      width: 100%;
+    }
+  }
+
+/* ////////////////////////////////////////////////////// */
+  
+  .service-card { 
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+     position: relative; 
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-card-1{
+    background-image: url('../asset/building2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-card-2{
+    background-image: url('../asset/building.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-card-3{
+    background-image: url('../asset/building3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-card-4{
+    background-image: url('../asset/construction1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Add this line */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.service-card h3 {
+  margin: 0;
+  padding: 20px;
+  color: var(--light-color);
+}
+
+.service-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card-overlay .overlay-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-card:hover .service-card-overlay {
+  transform: translateY(0);
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////COMMITMENT CONTIANER //////////////////////////////// */
+.commitment-container {
+  padding: 20px;
+}
+
+.commitment-container .row {
+  justify-content: center;
+  align-items: center;
+}
+
+.commitment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 240px;
+  background-image: url('../asset/building.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.commitment-card p {
+  background-color: linear-gradient(45deg, #333333, #808080);
+  padding: 6px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: bold;
+  margin: 0;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+.commitment-card i {
+  color: wheat;
+  padding: 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.commitment-card:hover i {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .commitment-card {
+    height: 250px;
+  }
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.hospital-container {
+    background-color: whitesmoke;
+}
+
+
+.hospital {
+    width: 100%;
+    height: 250px;
+    background-image: url('../asset/hospital.png');
+    background-size: cover;
+    position: relative;
+    transition: transform 0.3s;
+     transform-origin: bottom;
+}
+
+.hospital:hover {
+    transform: scaleY(1.1);
+    transition: transform 0.3s;
+}
+@media (max-width: 768px) {
+    .hospital-container {
+        height: 680px;
+        background-color: whitesmoke;
+    }
+}
+
