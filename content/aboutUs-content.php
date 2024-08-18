@@ -1,5 +1,6 @@
 <!-- Landing Page -->
 <div class="container-fluid about-bg-image">
+
     <div class="jumbotron text-center">
         <div class="overlay"></div>
         <div class="jumbotron-content" data-aos="fade-up">
@@ -11,6 +12,7 @@
              </h5>
         </div>
         </div>
+
 </div>
 </div>
 <!-- Landing Page ends here -->
@@ -18,23 +20,23 @@
 
 <!-- /////////////////////////////////// WHY CHOOSE US CONTAINER //////////////////////////////////////////// -->
 <div class="container-fluid work-gallary-container">
-    <div class="container">
-        <div class="row align-items-center p-5">
-            <div class="col-md-5 work-gallary-images " >
-                <div class="gallary-image1"></div>
-                <div class="gallary-image2"></div>
-                <div class="gallary-image3"></div>  
-            </div> 
+  <div class="container">
+    <div class="row align-items-center p-5">
+      <div class="col-md-5 work-gallary-images ">
+        <div class="gallary-image1"></div>
+        <div class="gallary-image2"></div>
+        <div class="gallary-image3"></div>
+      </div>
 
-            <div class="col-md-7 work-gallary-text">
-            <p> JD Builders is a distinguished construction company based in Ludhiana, renowned for its 
-                commitment to excellence and innovation in the field of real estate development. With a legacy 
-                of delivering high-quality construction projects, JD Builders has established itself as a trusted 
-                name in the industry. 
-            </p>
-            </div>   
-        </div>
+      <div class="col-md-7 work-gallary-text">
+        <p> JD Builders is a distinguished construction company based in Ludhiana, renowned for its
+          commitment to excellence and innovation in the field of real estate development. With a legacy
+          of delivering high-quality construction projects, JD Builders has established itself as a trusted
+          name in the industry.
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -73,8 +75,7 @@
 </div>
 
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<div class="container-fluid p-4 our-partners-container">
-    
+<div class="container-fluid p-4 our-partners-container">    
     <div class="container">
         <h2 class="text-center heading">Our Partners</h2>
       <div class="row justify-content-center">
@@ -116,6 +117,7 @@
       </div>
     </div>
   </div>
+</div>
 <!-- /////////////////////////////////// our services CONTAINER //////////////////////////////////////////// -->
 <div class="container-fluid p-4 our-partners-container">
     <h2 class="text-center heading">Our Services</h2>
@@ -139,70 +141,74 @@
                     </div>
                 <!-- -------------------------card Body ends -------------------- -->
             </div>
-
-
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <!-- -------------------------card Body -------------------- -->
-                                <div class="container">
-                        <div class="card service-card service-card-2 mt-5" data-aos="fade-right">
-                            <div class="card-body text-center text-white">
-                                <h3>Commercial Construction</h3>
-                            </div>
-                            <div class="service-card-overlay">
-                                <div class="overlay-content">
-                                    <h3>Commercial Construction</h3>
-                                    Our commercial construction services cater to the needs of 
-                                    businesses looking for reliable and efficient building solutions. From office complexes to 
-                                    retail spaces, we deliver projects that meet the specific requirements of our clients.    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!-- -------------------------card Body ends -------------------- -->
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <!-- -------------------------card Body -------------------- -->
-                                <div class="container">
-                        <div class="card service-card service-card-3 mt-5" data-aos="fade-right">
-                            <div class="card-body text-center text-white">
-                                <h3>Renovation and Remodeling</h3>
-                            </div>
-                            <div class="service-card-overlay">
-                                <div class="overlay-content">
-                                    <h3>Renovation and Remodeling</h3>
-                                    In addition to new constructions, we also offer renovation 
-and remodeling services. Whether it’s a minor upgrade or a complete overhaul, our team 
-ensures that the project is completed to the highest standards.     
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!-- -------------------------card Body ends -------------------- -->
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <!-- -------------------------card Body -------------------- -->
-                                <div class="container">
-                        <div class="card service-card service-card-4 mt-5" data-aos="fade-right">
-                            <div class="card-body text-center text-white">
-                                <h3>Project Management</h3>
-                            </div>
-                            <div class="service-card-overlay">
-                                <div class="overlay-content">
-                                    <h3>Project Management</h3>
-                                    Our project management services encompass planning, 
-coordination, and execution of construction projects. We ensure that every aspect of the 
-project is handled professionally, from initial concept to final handover.    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!-- -------------------------card Body ends -------------------- -->
-            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------card Body ends -------------------- -->
     </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <!-- -------------------------card Body -------------------- -->
+      <div class="container">
+        <div class="card service-card service-card-2 mt-5" data-aos="fade-right">
+          <div class="card-body text-center text-white">
+            <h3>Commercial Construction</h3>
+          </div>
+          <div class="service-card-overlay">
+            <div class="overlay-content">
+              <h3>Commercial Construction</h3>
+              Our commercial construction services cater to the needs of
+              businesses looking for reliable and efficient building solutions. From office complexes to
+              retail spaces, we deliver projects that meet the specific requirements of our clients.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------card Body ends -------------------- -->
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <!-- -------------------------card Body -------------------- -->
+      <div class="container">
+        <div class="card service-card service-card-3 mt-5" data-aos="fade-right">
+          <div class="card-body text-center text-white">
+            <h3>Renovation and Remodeling</h3>
+          </div>
+          <div class="service-card-overlay">
+            <div class="overlay-content">
+              <h3>Renovation and Remodeling</h3>
+              In addition to new constructions, we also offer renovation
+              and remodeling services. Whether it’s a minor upgrade or a complete overhaul, our team
+              ensures that the project is completed to the highest standards.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------card Body ends -------------------- -->
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+      <!-- -------------------------card Body -------------------- -->
+      <div class="container">
+        <div class="card service-card service-card-4 mt-5" data-aos="fade-right">
+          <div class="card-body text-center text-white">
+            <h3>Project Management</h3>
+          </div>
+          <div class="service-card-overlay">
+            <div class="overlay-content">
+              <h3>Project Management</h3>
+              Our project management services encompass planning,
+              coordination, and execution of construction projects. We ensure that every aspect of the
+              project is handled professionally, from initial concept to final handover.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------card Body ends -------------------- -->
+    </div>
+  </div>
 </div>
 
 <!-- ///////////////////////////////////commitment contianer///////////////////////////////////////////// -->
-    
     
   <div class="container-fluid commitment-container">
     <div class="container">
@@ -220,25 +226,24 @@ project is handled professionally, from initial concept to final handover.
             <p class="text-center">Safety</p>
             <i>Safety is paramount in all our projects. We adhere to rigorous safety protocols to protect 
             our workers and clients</i>
-          </div>
         </div>
+
         <div class="col-12 col-md-6 col-lg-3 mb-4">
           <div class="commitment-card-3 commitment-design">
             <p class="text-center">Sustainability</p>
             <i>We incorporate sustainable practices in our construction processes to minimize 
             environmental impact and promote green building principles. </i>
-          </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4">
           <div class="commitment-card-4 commitment-design">
             <p class="text-center">Customer Satisfaction</p>
             <i> Our clients are at the heart of everything we do. We work closely with 
             them to understand their needs and deliver results that exceed their expectations.</i>
-          </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
 <!-- /////////////////////////////////// HOSPITAL CONTAINER //////////////////////////////////////////// -->
 <div class="container-fluid hospital-container">
@@ -252,8 +257,11 @@ project is handled professionally, from initial concept to final handover.
         <div class="col-md-5 mt-4">
             <div class="hospital"></div>
         </div>
+
     </div>
+    <div class="col-md-5 mt-4">
+      <div class="hospital"></div>
+    </div>
+  </div>
 </div>
 </div>
-
-
