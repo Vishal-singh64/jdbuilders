@@ -19,7 +19,7 @@
                 <div class="card profile-card mt-5" data-aos="fade-right">
                     <div class="card-body text-center">
                         <div class="rounded-circle profile-img"><i class="fa-regular fa-paper-plane fa-2x"></i></div>
-                        <p class="fs-4 fw-bold">Drop Us Email</p>
+                        <p class="fs-4 fw-bold heading">Drop Us Email</p>
                         <p class="card-text fw-normal">You drop us email any time. our team will call you back as soon as possible</p>
                         <button class="contact-button" onclick="scrollToContact()">Send Email</button>
                     </div>
@@ -29,7 +29,7 @@
                 <div class="card profile-card mt-5" data-aos="fade-right">
                     <div class="card-body text-center">
                         <div class="rounded-circle profile-img"><i class="fa-solid fa-comments fa-2x"></i></div>
-                        <p class="fs-4 fw-bold">Chat with us</p>
+                        <p class="fs-4 fw-bold heading">Chat with us</p>
                         <p class="card-text fw-normal">You drop us email any time. our team will call you back as soon as possible</p>
                         <button class="contact-button" onclick="openWhatsApp()">Send Message</button>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="card profile-card mt-5" data-aos="fade-right">
                     <div class="card-body text-center">
                         <div class="rounded-circle profile-img"><i class="fa-solid fa-map-location fa-2x"></i></div>
-                        <p class="fs-4 fw-bold">Visit our Office</p>
+                        <p class="fs-4 fw-bold heading">Visit our Office</p>
                         <p class="card-text fw-normal">You drop us email any time. our team will call you back as soon as possible</p>
                         <button class="contact-button" onclick="openGoogleMaps()">Get Direction</button>
                     </div>
@@ -51,7 +51,7 @@
 
 <div class="container-fluid contact-container">
     <div class="row">
-        <h1 class="mt-4 text-white">Drop Us Email</h1>
+        <h1 class="mt-4 text-white heading">Drop Us Email</h1>
         <div class="col-md-6">
         <form action="send_mail.php" method="POST">
     <div class="form-group">

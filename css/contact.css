@@ -60,9 +60,6 @@
     align-items: center;
 }
 
-/*  */
-
-
 .contact-container .address-container {
     display: flex;
     justify-content: center;
@@ -80,6 +77,11 @@
     backdrop-filter: blur(2px); /* Blur effect for the background */
     border-radius: 10px; /* Rounded corners */
     width: 80%;
-    padding: 20px; /* Optional: Add some padding */
+    padding: 20px; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
+
+.form-control {
+    height: 100px; /* Set a minimum height for the text area */
+  }
+  

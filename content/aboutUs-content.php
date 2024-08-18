@@ -3,14 +3,12 @@
     <div class="jumbotron text-center">
         <div class="overlay"></div>
         <div class="jumbotron-content" data-aos="fade-up">
-            <h1 class="display-1">Transforming Spaces, Enhancing Lives.</h1>
+            <h1 class="display-1 heading">Transforming Spaces,<br>Enhancing Lives.</h1>
              <h5>
                 Our goal at JD Builders is to create environments that enhance the lives of those who live
                 and work in them. Through thoughtful design and meticulous construction, we build
                 more than just structures—we build communities.
              </h5>
-            <!--<p>"Crafting Dreams, Building Reality"</p>
-            <a class="btn btn-yellow btn-lg" href="services.php" role="button">Learn more</a> -->
         </div>
         </div>
 </div>
@@ -43,10 +41,10 @@
 <!-- //////////////////////////////// OUR EXPERTIES //////////////////////////////////////////////// -->
 <div class="container-fluid p-4 ">
         <div class="container">
-            <h2 class="text-center mb-4">Our Expertise</h2>
+            <h2 class="text-center mb-4 heading">Our Expertise</h2>
             <div class="row about-us-row mt-4" data-aos="fade-right">
                 <div class="col-md-7 order-md-1 order-2 p-4 about-us-text">
-                    <p class="title">Our Vision</p>
+                    <p class="title heading">Our Vision</p>
                     <p>At JD Builders, our vision is to create living spaces that are not only aesthetically pleasing but 
                     also structurally robust and sustainable. We aim to set new benchmarks in the construction 
                     industry by adhering to the highest standards of quality, safety, and environmental sustainability. 
@@ -61,13 +59,13 @@
             <!-- ------------------------------------------------------------- -->
             <div class="row about-us-row mt-4"data-aos="fade-right">
                 <div class="col-md-7 order-md-2 order-1 p-4 about-us-text">
-                    <p class="title">Our Mission </p>
+                    <p class="title heading">Our Mission </p>
                     <p>From the initial concept to the final completion, our project management 
                     team oversees every aspect of the construction process. We ensure that all projects are 
                     completed on time, within budget, and to the highest standards of quality</p>
                 </div>
                 <div class="col-md-4 order-md-1 order-2">
-                    <div class="about-us-image-1"></div>
+                    <div class="about-us-image-2"></div>
                 </div>
             </div>
             <!-- ------------------------------------------------------------- -->
@@ -78,7 +76,7 @@
 <div class="container-fluid p-4 our-partners-container">
     
     <div class="container">
-        <h2 class="text-center">Our Partners</h2>
+        <h2 class="text-center heading">Our Partners</h2>
       <div class="row justify-content-center">
       <p class="text-2xl mt-4">JD Builders operates as a partnership firm, co-founded by two visionary leaders, Jatinder Kumar and Deepak Kumar, who bring together their unique strengths and expertise, with Jatinder's strategic thinking and Deepak's operational acumen, to drive the company's growth and success, fostering a culture of innovation and excellence.
     </p>
@@ -86,7 +84,7 @@
         
           <div class="card profile-card mt-5" data-aos="fade-right">
             <div class="card-header text-center">
-              <img src="https://via.placeholder.com/100" alt="Profile Picture" class="rounded-circle profile-img">
+              <img src="./asset/Mr-jatinder_Kumar.jpg" alt="Profile Picture" class="rounded-circle profile-img">
             </div>
             <div class="card-body text-center">
               <p class="position align-center">Mr.Jatinder Kumar</p>
@@ -102,7 +100,7 @@
         <div class="col-12 col-md-6 col-lg-4 mb-4" >
           <div class="card profile-card mt-5" data-aos="fade-right">
             <div class="card-header text-center">
-              <img src="https://via.placeholder.com/100" alt="Profile Picture" class="rounded-circle profile-img">
+              <img src="./asset/Mr-Deepak-kumar.jpg" alt="Profile Picture" class="rounded-circle profile-img">
             </div>
             <div class="card-body text-center">
               <p class="position align-center">Mr.Deepak Kumar</p>
@@ -120,7 +118,7 @@
   </div>
 <!-- /////////////////////////////////// our services CONTAINER //////////////////////////////////////////// -->
 <div class="container-fluid p-4 our-partners-container">
-    <h2 class="text-center">Our Services</h2>
+    <h2 class="text-center heading">Our Services</h2>
         <div class="row">
             <div class="col-12 col-md-12 col-lg-3 mb-4">
                 <!-- -------------------------card Body -------------------- -->
@@ -208,31 +206,31 @@ project is handled professionally, from initial concept to final handover.
     
   <div class="container-fluid commitment-container">
     <div class="container">
-    <h3 class="text-center">Our Commitment</h3>
+    <h3 class="text-center heading">Our Commitment</h3>
     <p class="mute text-center"> At JD Builders, we are committed to</p>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-3 mb-4">
-          <div class="commitment-card">
+          <div class="commitment-card-1 commitment-design">
             <p class="text-center">Quality</p>
             <i>We use the best materials and employ skilled professionals to ensure that every project meets our stringent quality standards.</i>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4">
-          <div class="commitment-card">
+          <div class="commitment-card-2 commitment-design">
             <p class="text-center">Safety</p>
             <i>Safety is paramount in all our projects. We adhere to rigorous safety protocols to protect 
             our workers and clients</i>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4">
-          <div class="commitment-card">
+          <div class="commitment-card-3 commitment-design">
             <p class="text-center">Sustainability</p>
             <i>We incorporate sustainable practices in our construction processes to minimize 
             environmental impact and promote green building principles. </i>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4">
-          <div class="commitment-card">
+          <div class="commitment-card-4 commitment-design">
             <p class="text-center">Customer Satisfaction</p>
             <i> Our clients are at the heart of everything we do. We work closely with 
             them to understand their needs and deliver results that exceed their expectations.</i>
@@ -246,7 +244,7 @@ project is handled professionally, from initial concept to final handover.
 <div class="container-fluid hospital-container">
     <div class="row about-us-hospital">
         <div class="col-md-6 ">
-            <h4 class="m-5">Building the Future of Healthcare</h4>
+            <h4 class="m-5 heading">Building the Future of Healthcare</h4>
             <p class="m-5">At JD Builders, we understand that constructing a hospital requires a unique blend of precision, 
                 expertise, and dedication. Our team of experienced professionals is committed to delivering 
                 state-of-the-art healthcare facilities that meet the highest standards of safety and functionality.</p>

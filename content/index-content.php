@@ -70,19 +70,15 @@
     <div class="container">
     <div class="row text-center">
         <div class="col-md-3 mb-4">
-            <div class="card h-100 border-0 shadow-sm p-3" data-aos="fade-right">
+            <div class="card h-100 border-0 shadow-sm p-2" data-aos="fade-right">
                 <div class="card-body">
                     <div class="service-icon mb-3 rounded-circle">
                         <img src="./asset/icons/construction.svg" width="50" alt="Construction">
                     </div>
-                    <h5 class="card-title">Architecture Design</h5>
+                    <h5 class="card-title">CONSTRUCTION </h5>
                     <p class="card-text">
-                       JD Builders emphasizes a blend of innovation and functionality in their architectural and design
-                        approach. Their projects integrate modern aesthetics with sustainable practices, ensuring that each
-                        structure is not only visually appealing but also environmentally conscious. With a focus on client
-                        satisfaction, JD Builders customizes designs to meet specific needs, balancing form and function for
-                        optimal results.  
-                    </p>
+                    JD Builders: Expert construction services in Ludhiana, offering top-notch building engineering, valuation, and property development. Trust our experienced team for high-quality work and timely delivery.
+                </p>
                     <a class="btn btn-yellow" href="servies.php" role="button">Explore</a>
                 </div>
             </div>
@@ -93,14 +89,10 @@
                     <div class="service-icon mb-3 rounded-circle">
                         <img src="./asset/icons/renovation.svg" width="50" alt="House Renovation">
                     </div>
-                    <h5 class="card-title">ISSUANCE AND GUARANTEE SCHEME</h5>
+                    <h5 class="card-title">HOUSE RENOVATION</h5>
                     <p class="card-text">
-                        JD Builders offers a comprehensive Issuance and Guarantee Scheme, providing a 5-year warranty on all
-                        construction projects. This guarantee covers structural integrity, material quality, and workmanship,
-                        ensuring peace of mind for our clients. Any defects or issues arising within this period will be promptly
-                        addressed at no additional cost. With JD Builders, you can trust that your investment is protected by our
-                        commitment to excellence and long-term durability, backed by our extensive experience in the
-                        construction industry. Choose JD Builders for reliable and guaranteed construction solutions.
+                    JD Builders: Expert house renovation services in Ludhiana. Transform your space with our skilled team, 
+                    delivering quality craftsmanship and innovative design, on time and within budget." 
                     </p>
                     <a class="btn btn-yellow" href="servies.php" role="button">Explore</a>
                 </div>
@@ -112,12 +104,10 @@
                     <div class="service-icon mb-3 rounded-circle">
                         <img src="./asset/icons/paint.svg" width="50" alt="Painting">
                     </div>
-                    <h5 class="card-title">CONSTRUCTION</h5>
+                    <h5 class="card-title">ISSUANCE AND GUARANTEE SCHEME </h5>
                     <p class="card-text">
-                       JD Builders specializes in delivering top-tier construction services, blending innovative design with
-                        structural integrity. With expertise in residential, commercial, and industrial projects, we prioritize
-                        quality, safety, and client satisfaction. Our team ensures timely completion, attention to detail, and cost-
-                        effective solutions, making JD Builders a trusted partner for all your construction needs 
+                    JD Builders offers 5-year of issuance and guarantee scheme to ensures top-quality construction and peace 
+                    of mind for all our clients. Trust us for durable excellence."  
                     </p>
                     <a class="btn btn-yellow" href="servies.php" role="button">Explore</a>
                 </div>
@@ -129,12 +119,10 @@
                     <div class="service-icon mb-3 rounded-circle">
                         <img src="./asset/icons/design.svg" width="50" alt="Architecture Design">
                     </div>
-                    <h5 class="card-title">HOUSE RENOVATION</h5>
+                    <h5 class="card-title">ARCHITECTURE</h5>
                     <p class="card-text">
-                       Transform your home with our expert renovation services. At JD Builders, we specialize in breathing new
-                        life into old spaces, ensuring every detail is meticulously crafted to meet your needs. From structural
-                        enhancements to modern finishes, we bring your vision to reality with quality, precision, and care. Your
-                        dream home awaits! 
+                    "JD Builders specializes in innovative architecture and top design, offering tailored solutions that blend 
+                    aesthetics with functionality, ensuring quality and excellence in every project." 
                      </p>
                     <a class="btn btn-yellow" href="servies.php" role="button">Explore</a>
                 </div>
@@ -150,11 +138,12 @@
 <!-- Swiper CSS -->
 
 <div class="container py-5">
+    <h3 class="text-center mb-3 heading">Listen What our Customers <br>say about us</h3>
     <div class="swiper-container testimony-swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide " >
                 <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
+                    <img src="./asset/testmoney/person1.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
                     <h5>Bruce Hardy</h5>
                     <p class="text-muted">Software Developer</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -169,7 +158,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
+                    <img src="./asset/testmoney/person2.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
                     <h5>Mark Smith</h5>
                     <p class="text-muted">Web Developer</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -184,7 +173,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
+                    <img src="./asset/testmoney/person3.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
                     <h5>Veera Duncan</h5>
                     <p class="text-muted">Software Architect</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -199,7 +188,7 @@
             </div>
             <div class="swiper-slide">
                 <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
+                    <img src="./asset/testmoney/person4.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
                     <h5>Bruce Hardy</h5>
                     <p class="text-muted">Software Developer</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -214,24 +203,9 @@
             </div>
             <div class="swiper-slide">
                 <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
+                    <img src="./asset/testmoney/person5.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
                     <h5>Mark Smith</h5>
                     <p class="text-muted">Web Developer</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="testimonial text-center">
-                    <img src="./asset/boy.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
-                    <h5>Veera Duncan</h5>
-                    <p class="text-muted">Software Architect</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -244,19 +218,8 @@
             </div>
             <!-- Add more swiper-slide items here -->
         </div>
-
-        <!-- Swiper Pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- Swiper navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     </div>
 </div>
-
-
-
-
 
 <!-- Testomoni ends -->
 <!-- ---------------------------------------------------------------------------------------------------- -->
@@ -264,7 +227,7 @@
 <div class="container-fluid image-gradient">
     <div class="container ">
         <div class="row">
-            <div class="col-md-6 contact-details" data-aos="fade-up">
+            <div class="col-md-6 contact-details heading" data-aos="fade-up">
                 <h1>Say hellow to us!</h1>
                 <p>Let's Talk Busines or just Have coffee we will love to hear from you</p>
             
@@ -301,7 +264,7 @@
 <!-- Partners -->
  <div class="container-fluid partners-section">
 <div class="container  py-3">
-    <h2 class="text-center mb-4">Our Partners</h2>
+    <h2 class="text-center mb-4 heading">Our Partners</h2>
     <div class="row align-items-center justify-content-between">
         <div class="col-md-2 col-6 mb-4">
             <img src="./asset/partners/acc.png" class="img-fluid" alt="acc cements">

@@ -30,11 +30,6 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; Add this line */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; */
     color: white;
 }
 
@@ -51,20 +46,102 @@
 /* ////////////////// */
 .image-grid-col-1{
     height: 250px;
-    /* border: 1px solid black; */
-    background-image: url('../asset/1.jpeg');
+    background-image: url('../asset/work/house1.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: fixed; Add this line */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; */
+    color: white;
+}
+.image-grid-col-2{
+    height: 250px;
+    background-image: url('../asset/work/house7.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-3{
+    height: 250px;
+    background-image: url('../asset/work/house2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-4{
+    height: 250px;
+    background-image: url('../asset/work/house8.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-5{
+    height: 250px;
+    background-image: url('../asset/work/house5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-6{
+    height: 250px;
+    background-image: url('../asset/work/house4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-7{
+    height: 250px;
+    background-image: url('../asset/work/house3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-8{
+    height: 250px;
+    background-image: url('../asset/work/interion2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-9{
+    height: 250px;
+    background-image: url('../asset/work/interion8.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-10{
+    height: 250px;
+    background-image: url('../asset/work/interion3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-11{
+    height: 250px;
+    background-image: url('../asset/work/interion4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.image-grid-col-12{
+    height: 250px;
+    background-image: url('../asset/work/interion5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
 }
 
-@media (max-width: 768px) { /* Adjust the max-width as needed */
+@media (max-width: 768px) {
     .image-grid-col-1 {
         height: 150px;
     }

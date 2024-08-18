@@ -7,8 +7,17 @@
 :root {
     --primary-color: #FFD700;
     --secondary-color:  rgb(0, 0, 0);
-    --light-color: rgb(230, 227, 227);
-    --dark-color: rgb(26, 25, 25);
+    --light-color: rgb(236, 236, 233);
+    --dark-color: rgb(20, 19, 19);
+}
+
+@font-face {
+    font-family: 'Heading';
+    src: url('../asset/fonts/DMSerifText-Regular.ttf') format('woff2')
+}
+
+.heading{
+    font-family: "Heading";
 }
 
 .bg-image {
@@ -21,6 +30,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 .overlay {
@@ -39,6 +49,7 @@
     color: whitesmoke;
     text-align: center;
     padding: 2rem;
+    font-family: "Heading";
 }
 
 .jumbotron-content .display-1 {
@@ -116,13 +127,11 @@
     justify-content: center;
     align-items: center;
 }
-/* .service-icon img{
-    
-} */
 
-/* /////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////// */
-
+.services-section .card-text{
+    text-align:justify;
+    font-size:15px
+}
 
 /* ////////////////////////// we build at convient prices ///////////////////////// */
 
@@ -132,7 +141,6 @@
     background-image: url('../asset/construction1.jpeg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Add this line */
     background-attachment: fixed; /* Add this line */
     display: flex;
     align-items: center;
@@ -257,6 +265,7 @@ h2 {
 }
 .glimpse-text h1 {
     /* font-size: ; */
+    font-family: "Heading";
     color: var(--primary-color);
     font-weight: bolder;
     margin-bottom: 20px;
@@ -362,7 +371,7 @@ h2 {
 
 .image-gradient .contact-details h1{
    
-    color: var(--dark-color);
+    color: var(--light-color);
     font-weight: bolder;
 }
 
@@ -370,8 +379,9 @@ h2 {
     color: var(--light-color);
 }
 .image-gradient .contact-details h6{
-    color: var(--secondary-color);
+    color:  rgb(170, 172, 170);
     font-weight: bold;
+    font-size: 12px;
 }
 
 .contact-social-icons i{

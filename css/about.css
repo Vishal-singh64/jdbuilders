@@ -1,6 +1,6 @@
 
 .about-bg-image {
-    background-image: url('../asset/building.jpg');
+    background-image: url('../asset/work/house2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Add this line */
@@ -51,7 +51,7 @@
 
 .gallary-image1{
     border-radius: 2px;
-    background-image: url('../asset/building.jpg');
+    background-image: url('../asset/work/interion9.jpg');
     background-size: cover;
     height: 220px;
     width: 280px;
@@ -64,7 +64,7 @@
 }
 .gallary-image2{
     border-radius: 2px;
-    background-image: url('../asset/building2.jpg');
+    background-image: url('../asset/work/interion4.jpg');
     background-size: cover;
     height: 220px;
     width: 280px;
@@ -76,7 +76,7 @@
 
 .gallary-image3{
     border-radius: 2px;
-    background-image: url('../asset/building3.jpg');
+    background-image: url('../asset/work/house1.jpg');
     background-size: cover;
     height: 220px;
     width: 280px;
@@ -98,7 +98,14 @@
 
 .about-us-image-1{
     border-radius: 10px;
-    background-image: url('../asset/building3.jpg');
+    background-image: url('../asset/work/house2.jpg');
+    background-size: cover;
+    height: 220px;
+    width: 350px;
+}
+.about-us-image-2{
+    border-radius: 10px;
+    background-image: url('../asset/work/interion2.jpg');
     background-size: cover;
     height: 220px;
     width: 350px;
@@ -131,12 +138,21 @@
 .about-us-image-1 {
     width: 100%;
     height: 250px;
-    background-image: url('../asset/building3.jpg');
+    background-image: url('../asset/work/house4.jpg');
+    background-size: cover;
+}
+.about-us-image-2 {
+    width: 100%;
+    height: 250px;
+    background-image: url('../asset/work/house3.jpg');
     background-size: cover;
 }
 
 @media (max-width: 768px) {
     .about-us-image-1 {
+        margin-bottom: 20px;
+    }
+    .about-us-image-2 {
         margin-bottom: 20px;
     }
 }
@@ -225,7 +241,7 @@
   }
 
   .service-card-1{
-    background-image: url('../asset/building2.jpg');
+    background-image: url('../asset/work/house1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Add this line */
@@ -234,7 +250,7 @@
     align-items: center;
   }
   .service-card-2{
-    background-image: url('../asset/building.jpg');
+    background-image: url('../asset/work/house8.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Add this line */
@@ -243,7 +259,7 @@
     align-items: center;
   }
   .service-card-3{
-    background-image: url('../asset/building3.jpg');
+    background-image: url('../asset/work/interion10.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Add this line */
@@ -252,7 +268,7 @@
     align-items: center;
   }
   .service-card-4{
-    background-image: url('../asset/construction1.jpeg');
+    background-image: url('../asset/work/interion2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Add this line */
@@ -261,11 +277,13 @@
     align-items: center;
   }
 
-.service-card h3 {
-  margin: 0;
-  padding: 20px;
-  color: var(--light-color);
-}
+  .service-card h3 {
+    margin: 0;
+    padding: 20px;
+    color: var(--light-color);
+    text-shadow: 2px 2px 4px rgb(68, 68, 68); /* Adjust the values as needed */
+  }
+  
 
 .service-card-overlay {
   position: absolute;
@@ -302,12 +320,51 @@
   align-items: center;
 }
 
-.commitment-card {
+.commitment-card-1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 240px;
-  background-image: url('../asset/building.jpg');
+  background-image: url('../asset/work/house2.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.commitment-card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 240px;
+  background-image: url('../asset/work/house3.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.commitment-card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 240px;
+  background-image: url('../asset/work/house4.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.commitment-card-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 240px;
+  background-image: url('../asset/work/house8.jpg');
   background-size: cover;
   background-position: center;
   margin: 10px;
@@ -316,7 +373,21 @@
   overflow: hidden;
 }
 
-.commitment-card p {
+.commitment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 240px;
+  background-image: url('../asset/work/house1.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.commitment-design p {
   background-color: linear-gradient(45deg, #333333, #808080);
   padding: 6px;
   width: 100%;
@@ -329,8 +400,7 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-
-.commitment-card i {
+.commitment-design i {
   color: wheat;
   padding: 10px;
   text-align: center;
@@ -347,12 +417,12 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.commitment-card:hover i {
+.commitment-design:hover i {
   opacity: 1;
 }
 
 @media (max-width: 768px) {
-  .commitment-card {
+  .commitment-design {
     height: 250px;
   }
 }

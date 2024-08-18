@@ -16,42 +16,42 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
+                    <img src="./asset/work/house1.jpg" class="rounded-circle mb-3" alt="Client 1" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
+                    <img src="./asset/work/house2.jpg" class="rounded-circle mb-3" alt="Client 2" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
+                    <img src="./asset/work/house3.jpg" class="rounded-circle mb-3" alt="Client 3" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 4" height="100" width="100">
+                    <img src="./asset/work/house4.jpg" class="rounded-circle mb-3" alt="Client 4" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
+                    <img src="./asset/work/house5.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
+                    <img src="./asset/work/house6.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
+                    <img src="./asset/work/house7.jpg" class="rounded-circle mb-3" alt="Client 5" height="100" width="100">
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="col-md-2 col-6 mb-4 center-content">
-                    <img src="./asset/bg.jpg" class="rounded-circle mb-3" alt="Client 6" height="100" width="100">
+                    <img src="./asset/work/house8.jpg" class="rounded-circle mb-3" alt="Client 6" height="100" width="100">
                 </div>
             </div>
         </div>
@@ -62,14 +62,14 @@
 
 <!-- /////////////////////////////////// MISSINOS CONTAINER //////////////////////////////////////////// -->
 <div class="container-fluid service-container">
-       <h3 class="text-center mt-4">We Provide Services</h3>
+       <h3 class="text-center mt-4 heading">We Provide Services</h3>
 <div class="container">
 <!-- ---------------------------Home-------------------------- -->
 <div class="row section align-items-center">
 <div class="col-md-4 image-1 order-md-1 order-1 ">
         </div>
         <div class="col-md-8 order-md-1 order-1">
-            <h3>Home</h3>
+            <h3 class="heading">Home</h3>
             <!--<p>(www.yourbrand.com)</p>-->
             <p>
                 JD Builders specializes in constructing high-quality homes that combine modern design with functional
@@ -87,7 +87,7 @@
     <div class="row section align-items-center">
     <div class="col-md-4 image-2 order-md-2 order-1"></div>
         <div class="col-md-8 order-md-1 order-2">
-            <h3>Commercial Buildings</h3>
+            <h3 class="heading">Commercial Buildings</h3>
             <!--<p>(www.yourbrand.com)</p>-->
             <p>
                 JD Builders specializes in the construction of commercial buildings, providing comprehensive services
@@ -105,7 +105,7 @@
     <div class="col-md-4 image-3 order-md-1 order-1 ">
         </div>
         <div class="col-md-8 order-md-1 order-1">
-            <h3>Hospitals</h3>
+            <h3 class="heading">Hospitals</h3>
             <!--<p>(www.yourbrand.com)</p>-->
             <p>
                 JD Builders specializes in constructing state-of-the-art hospital facilities. With a focus on quality and
@@ -121,7 +121,7 @@
     <div class="row section align-items-center">
     <div class="col-md-4 image-4 order-md-2 order-1"></div>
         <div class="col-md-8 order-md-1 order-2">
-            <h3>Flyover</h3>
+            <h3 class="heading">Flyover</h3>
             <!--<p>(www.yourbrand.com)</p>-->
             <p>
                 JD Builders specializes in constructing flyovers, leveraging advanced engineering techniques and
@@ -138,7 +138,7 @@
     <div class="row section align-items-center">
     <div class="col-md-4 image-5 order-md-1 order-1"></div>
         <div class="col-md-8 order-md-1 order-1">
-            <h3>HELIPADS</h3>
+            <h3 class="heading">HELIPADS</h3>
             <p>(www.yourbrand.com)</p>
             <p>
                JD Builders specializes in the construction of helipads, delivering top-tier services tailored to meet
@@ -155,20 +155,3 @@
 </div>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-<script>
-// document.addEventListener('DOMContentLoaded', function () {
-//     const scrollingWrapper = document.querySelector('.scrolling-wrapper');
-//     const firstElement = scrollingWrapper.firstElementChild.cloneNode(true);
-
-//     // Append the cloned first element to the end
-//     scrollingWrapper.appendChild(firstElement);
-
-//     // Adjust animation duration based on content width
-//     const totalWidth = scrollingWrapper.scrollWidth;
-//     const scrollDuration = totalWidth / 50; // Adjust speed by changing 50
-
-//     scrollingWrapper.style.animationDuration = `${scrollDuration}s`;
-// });
-
-</script>
