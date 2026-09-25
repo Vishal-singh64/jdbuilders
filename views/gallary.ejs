@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('partials/head', { title: 'Gallery' }) %>
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <!-- Hero Banner -->
+    <div class="container-fluid plans-bg-image">
+        <div class="jumbotron text-center">
+            <div class="overlay"></div>
+            <div class="jumbotron-content" data-aos="fade-up">
+                <h1 class="display-1">Designing the Future</h1>
+                <h5>
+                    "At JD Builders, we design not just for today, but for the generations to come."
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- What We Are Known For -->
+    <div class="container-fluid services-section bg-light py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">What We Are Known For</h3>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" data-aos="fade-right">
+                        <div class="card-body">
+                            <div class="service-icon mb-3 rounded-circle">
+                                <img src="/asset/icons/construction.svg" width="50" alt="Construction">
+                            </div>
+                            <h5 class="card-title">Construction</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" data-aos="fade-up">
+                        <div class="card-body">
+                            <div class="service-icon mb-3 rounded-circle">
+                                <img src="/asset/icons/renovation.svg" width="50" alt="House Renovation">
+                            </div>
+                            <h5 class="card-title">House Renovation</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" data-aos="fade-up">
+                        <div class="card-body">
+                            <div class="service-icon mb-3 rounded-circle">
+                                <img src="/asset/icons/paint.svg" width="50" alt="Painting">
+                            </div>
+                            <h5 class="card-title">Painting</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="service-icon mb-3 rounded-circle">
+                                <img src="/asset/icons/design.svg" width="50" alt="Architecture Design">
+                            </div>
+                            <h5 class="card-title">Architecture Design</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Grid Gallery -->
+    <div class="container-fluid py-4">
+        <div class="row g-2">
+            <div class="col-md-4 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/building.jpg');"></div>
+            <div class="col-md-2 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/1.jpeg');"></div>
+            <div class="col-md-6 col-12 image-grid-col-1 img-fluid" style="background-image: url('/asset/Clock-Tower_Ludhiana-Flyover-630x1000.jpg');"></div>
+            <div class="col-md-5 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/building2.jpg');"></div>
+            <div class="col-md-3 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/cons.jpg');"></div>
+            <div class="col-md-4 col-12 image-grid-col-1 img-fluid" style="background-image: url('/asset/construction1.jpeg');"></div>
+            <div class="col-md-3 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/building3.jpg');"></div>
+            <div class="col-md-5 col-6 image-grid-col-1 img-fluid" style="background-image: url('/asset/bg.jpg');"></div>
+            <div class="col-md-4 col-12 image-grid-col-1 img-fluid" style="background-image: url('/asset/contact.jpg');"></div>
+        </div>
+    </div>
+
+    <!-- Work Types -->
+    <div class="container work-container py-5">
+        <h3 class="text-center mt-3">Your Dream is What <span class="d-block" style="color: var(--primary-color);">We Build</span></h3>
+        <div class="row text-center mt-4">
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/house.svg" width="50" alt="House">
+                </div>
+                <h5>House</h5>
+            </div>
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/hospital.svg" width="50" alt="Hospitals">
+                </div>
+                <h5>Hospitals</h5>
+            </div>
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/bridge.svg" width="50" alt="Bridges">
+                </div>
+                <h5>Bridges</h5>
+            </div>
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/bank.svg" width="50" alt="Banks">
+                </div>
+                <h5>Banks</h5>
+            </div>
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/hotel.svg" width="50" alt="Hotels">
+                </div>
+                <h5>Hotels</h5>
+            </div>
+            <div class="col-md-2 col-4 center-content mb-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-icon mb-3 rounded-circle">
+                    <img src="/asset/icons/city.svg" width="50" alt="Roads">
+                </div>
+                <h5>Roads</h5>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer') %>
+    <%- include('partials/scripts') %>
+</body>
+</html>

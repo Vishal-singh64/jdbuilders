@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('partials/head', { title: 'Contact Us' }) %>
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <!-- Hero Banner -->
+    <div class="container-fluid contact-bg-image">
+        <div class="jumbotron text-center">
+            <div class="overlay"></div>
+            <div class="jumbotron-content" data-aos="fade-up">
+                <h1 class="display-1">Where Quality Meets Innovation</h1>
+                <h5>
+                   "Blending traditional craftsmanship with modern innovation for timeless results."
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Methods Cards -->
+    <div class="container-fluid p-4 contact-methods-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card profile-card mt-5 mx-auto" data-aos="fade-right">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle profile-img mx-auto"><i class="fa-regular fa-paper-plane fa-2x"></i></div>
+                            <p class="fs-4 fw-bold">Drop Us Email</p>
+                            <p class="card-text fw-normal">You can drop us an email anytime. Our team will get back to you as soon as possible.</p>
+                            <button class="contact-button" onclick="scrollToContact()">Send Email</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card profile-card mt-5 mx-auto" data-aos="fade-up">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle profile-img mx-auto"><i class="fa-solid fa-comments fa-2x"></i></div>
+                            <p class="fs-4 fw-bold">Chat with us</p>
+                            <p class="card-text fw-normal">Connect directly with our construction directors on WhatsApp for immediate queries.</p>
+                            <button class="contact-button" onclick="openWhatsApp()">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card profile-card mt-5 mx-auto" data-aos="fade-left">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle profile-img mx-auto"><i class="fa-solid fa-map-location fa-2x"></i></div>
+                            <p class="fs-4 fw-bold">Visit our Office</p>
+                            <p class="card-text fw-normal">Meet our structural engineers and architects at our Ludhiana office for consultations.</p>
+                            <button class="contact-button" onclick="openGoogleMaps()">Get Direction</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container-fluid contact-container" id="contact-container">
+        <div class="container">
+            <div class="row align-items-center">
+                <h1 class="mt-4 text-white text-center mb-4">Drop Us Email</h1>
+                <div class="col-md-6">
+                    <div id="form-alert" class="alert alert-success d-none mb-3" role="alert">
+                        Thank you! Your message has been sent successfully. We will contact you shortly.
+                    </div>
+                    <form id="contactForm" action="/send_mail.php" method="POST">
+                        <div class="form-group mb-3">
+                            <input type="text" id="name" class="form-control p-3" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" id="email" class="form-control p-3" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="tel" id="phone" class="form-control p-3" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group mb-3">
+                            <textarea id="message" class="form-control p-3" name="message" rows="4" placeholder="Enter your message or project requirements" required></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn btn-warning w-100 p-3 fw-bold">
+                            Submit Message <i class="fa-regular fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-6 p-4 address-container">
+                    <div class="address-card text-white">
+                        <h4 class="fw-bold mb-3">Our Office</h4>
+                        <p class="address mt-2">
+                            <i class='bx bx-map me-2'></i> Aggarwal Enclave Balloke Road,<br>
+                            Opposite Hotel Miraas,<br>
+                            Ludhiana - 141001, Punjab, India
+                        </p>
+                        <p class="main mt-3">
+                            <i class='bx bx-envelope me-2'></i> info@jdbuilders.co.in
+                        </p>
+                        <p class="main mt-2">
+                            <i class='bx bx-phone me-2'></i> +91 99854 47598 / +91 85912 62068
+                        </p>
+                        <p class="mt-3 text-muted" style="color: #e0e0e0 !important;">
+                            Working Hours: Mon - Sat: 9:00 AM - 7:00 PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer') %>
+    <%- include('partials/scripts') %>
+
+    <script>
+        function scrollToContact() {
+            const contactContainer = document.getElementById('contact-container');
+            if (contactContainer) {
+                contactContainer.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function openWhatsApp() {
+            const phoneNumber = '918591262068';
+            const message = 'Hello JD Builders, I would like to inquire about your construction and architectural services.';
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.location.href = url;
+        }
+
+        function openGoogleMaps() {
+            const latitude = '30.930032';
+            const longitude = '75.795960';
+            const url = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
+            window.location.href = url;
+        }
+
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const submitBtn = document.getElementById('submitBtn');
+                const formAlert = document.getElementById('form-alert');
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone') ? document.getElementById('phone').value : '';
+                const message = document.getElementById('message').value;
+
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Sending...';
+
+                fetch('/service/sendMail.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({ name, email, phone, message })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Submit Message <i class="fa-regular fa-paper-plane ms-2"></i>';
+                    if (data.success) {
+                        formAlert.classList.remove('d-none');
+                        contactForm.reset();
+                    } else {
+                        alert(data.message || 'Error sending message. Please try again.');
+                    }
+                })
+                .catch(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Submit Message <i class="fa-regular fa-paper-plane ms-2"></i>';
+                    formAlert.classList.remove('d-none');
+                    contactForm.reset();
+                });
+            });
+        }
+    </script>
+</body>
+</html>
